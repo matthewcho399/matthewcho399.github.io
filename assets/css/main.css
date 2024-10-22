@@ -3514,6 +3514,7 @@ input, select, textarea {
 	/* Project */
 	.project-container {
 		display: flex;
+		min-width: 25vw;
 		flex-direction: column;
 		background-color: #142338;
 		padding: 20px 20px 20px;
@@ -3527,7 +3528,6 @@ input, select, textarea {
 	}
 
 	.project-details {
-		min-width: 22vw;
 		width: 90%;
 		height: auto;
 		color: #BCC1CA;
@@ -3558,6 +3558,7 @@ input, select, textarea {
 	
 	.project-tools {
 		width: 100%;
+		display: flex;
 		margin-top: auto;
 		font-family: 'IBM Plex Mono', monospace;
 		font-weight: 300;
