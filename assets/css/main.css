@@ -3527,6 +3527,7 @@ input, select, textarea {
 	}
 
 	.project-details {
+		min-width: 22vw;
 		width: 90%;
 		height: auto;
 		color: #BCC1CA;
